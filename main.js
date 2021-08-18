@@ -35,7 +35,7 @@ function totalCost(){
 
     const moonQuantity=document.getElementById('moon-input');   
     let moonNumber=parseInt(moonQuantity.value);
-    document.getElementById('total-cost').innerText=marsNumber*5000+moonNumber*200
+    document.getElementById('total-cost').innerText=marsNumber*500+moonNumber*200
 }
 
 
